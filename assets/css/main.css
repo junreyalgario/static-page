@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e6e6e6;
+  padding: 0 16px 0 16px;
+  height: 50px;
+}
+
+nav .logo {
+  width: 200px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+nav .menu {
+  flex: 1;
+  display: block;
+  text-align: right;
+}
+
+/* nav .menu .item -> class mapping approach */
+nav .menu .item { 
+  text-decoration: none;
+  color: #404040;
+  font-weight: 200;
+  margin: 0px 10px 0px 10px;
+}
+
+nav .menu .item:hover {
+  color: #2d8659;
+}
+
+nav .vr {
+  border-left: 1px solid #e6e6e6;
+  height: 100%;
+  display: inline;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 50px);
+}
+
